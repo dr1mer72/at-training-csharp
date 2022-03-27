@@ -11,7 +11,7 @@ class Example2 {
     
     y = x / 2;
     
-    Console.WriteLine("y содержит x / 2: ");
+    Console.Write("y содержит x / 2: ");
     Console.WriteLine(y);
   }
 }

@@ -2,12 +2,14 @@ using System;
 
 class Practice1 {
   static void Main() {
-    int numb;
-    int bas;
+    
     int result;
     
-    numb = 159;
-    bas = 20;
+    Console.Write("Введите число в десятичной системе: ");
+    int numb = Convert.ToInt32(Console.ReadLine());
+    
+    Console.Write("Введите основание: ");
+    int bas = Convert.ToInt32(Console.ReadLine());
     
     if (bas < 2)
     {

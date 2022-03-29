@@ -5,10 +5,10 @@ class Practice1 {   // Class declaration
     
     int result;   // Variable declaration
     
-    Console.Write("Введите число в десятичной системе: ");  // Message output
+    Console.WriteLine("Введите число в десятичной системе: ");  // Message output
     int numb = Convert.ToInt32(Console.ReadLine());   // Variable declaration and type conversion
     
-    Console.Write("Введите основание: ");   // Message output
+    Console.WriteLine("Введите основание: ");   // Message output
     int bas = Convert.ToInt32(Console.ReadLine());  // Variable declaration and type conversion
     
     if (bas < 2)  // Declaring the first condition
